@@ -1,0 +1,71 @@
+/* Стили для всей страницы */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Карточка с контентом */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Заголовок */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Подзаголовок */
+.subtitle {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Кнопка */
+.button {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* Текст */
+p {
+    color: #555;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Маленький текст внизу */
+.footer {
+    margin-top: 30px;
+    color: #bdc3c7;
+    font-size: 0.9em;
+}
